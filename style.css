@@ -1,0 +1,51 @@
+body
+{
+    display:flex;
+    justify-content: center;
+}
+
+.container {
+    
+    border: 2px solid black;
+    width: 75%;
+    height: 750px;
+    border-radius: 6px;
+    
+}
+
+nav{
+   
+   
+    width: auto;
+    height: 50px;
+    border-radius: 6px;
+    display: flex;
+    
+    justify-content: space-between; /* Space between container and list */
+    margin: 25px;
+}
+
+p {
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(29, 27, 27, 0.966);
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+nav ul {
+    display: flex; /* Flexbox applied here to keep items in a row */
+ }
+
+ nav ul li {
+    display: inline-block; /* Ensures each item in the list is inline */
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 25px;
+    color: rgb(27, 26, 26);
+}
+ 
