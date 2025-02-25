@@ -1,4 +1,5 @@
-body
+/* body
+
 {
     display:flex;
     justify-content: center;
@@ -21,7 +22,7 @@ nav{
     border-radius: 6px;
     display: flex;
     
-    justify-content: space-between; /* Space between container and list */
+    justify-content: space-between; 
     margin: 25px;
 }
 
@@ -35,17 +36,135 @@ p {
 
 }
 
-nav ul {
-    display: flex; /* Flexbox applied here to keep items in a row */
- }
+/* nav ul {
+    display: flex; 
 
  nav ul li {
-    display: inline-block; /* Ensures each item in the list is inline */
-}
+    display: inline-block;
 
 nav a {
     text-decoration: none;
     padding: 0 25px;
     color: rgb(27, 26, 26);
 }
- 
+h4
+{
+    text-align: justify;
+    margin: 20px;
+    text-indent: 40px; 
+}
+h3
+{
+    text-indent: 20px;
+    margin-top :80px;
+} */ 
+
+body
+{
+    background-color: rgb(5, 4, 59);
+    color:white;
+}
+nav
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #0f0202e7;
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+}
+nav ul li
+{
+    margin: 0px 50px;
+    list-style-type: none;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover
+{
+    font-size: 1.0rem;
+    color:rgb(136, 136, 241);
+}
+.left
+{
+    font-size: 25px;
+    
+}
+.first
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+
+}
+.first>div
+{
+    width: 35%;
+    
+
+}
+.leftsection
+
+{
+  margin:30px;
+  font-size:3rem;
+}
+.rightsection img
+{
+ width:90%;
+}
+.yellow
+{
+    color:rgb(248, 26, 163);
+}
+.secondsection
+{
+    max-width: 80w;
+    margin: 47px;;
+    height:80vh;
+}
+.secondsection h1
+{
+    font-size: 1.9rem;
+}
+.secondsection .box
+{
+    background:white;
+    width:80vw;
+    height: 2px;
+    margin:56px 0;
+    display: flex;
+}
+.secondsection .vertical
+{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin:0 150px;
+}
+.vertical-title
+{
+    width: 150px;
+    top: 75px;
+    position: relative;
+}
+.image-top
+{
+    width: 35px;
+    top: -20px;
+    position: relative;
+    left: 10px;
+}
+.vertical-desc,.vertical-com
+{
+    width: 150px;
+    top: 75px;
+    position: relative;
+}
